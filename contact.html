@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blogercontactform.css">
+    <title>get in touch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: white;
+        font-family: sans-serif;
+    }
+
+    /*.container1 {
+        width: 600px;
+        background-color: white;
+        border-left: brown solid 10px;
+        border-right: brown solid 10px;
+        border-top: brown solid 5px;
+        top: 28%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        text-align: center;
+    }*/
+
+    form {
+        margin: 10px;
+    }
+
+    input {
+        width: 30%;
+        height: 30px;
+        margin: 2%;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-width: 1px;
+        border-color: orange;
+        display: block;
+    }
+    textarea {
+        width: 30%;
+        margin: 2%;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-width: 1px;
+        border-color: orange;
+        display: block;
+    }
+
+    .text-area {
+        height: 200px;
+        width: 400px;
+        padding: 20px;
+        display: block;
+    }
+    input{
+      
+    }
+
+    .heading {
+
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        padding-left: 10px;
+    }
+
+    .btn {
+        border-radius: 5px;
+        color: white;
+        margin-top: 5px;
+        padding: 10px;
+        padding-left: 10px;
+        background-color: orange;
+        font-size: 12px;
+        border: none;
+    }
+
+    .label {
+        padding-left: 10px;
+        font-size: 8px;
+        color: rgb(127, 123, 123);
+    }
+
+    .phone {
+        margin: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-width: 1px;
+        border-color: orange;
+        width: 150px;
+        height: 20px
+    }
+
+    .area {
+        background-color: rgb(26, 143, 216);
+    }
+
+    .btn {
+        background-color: green;
+        color: white;
+    }
+</style>
+
+
+<body>
+
+    <div class="topnav">
+        
+        <a href="home.html">Home</a>
+        <a href="myblog.html">Blog</a>
+        <a href="media.html">Media</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="information group.html">Information Group </a>
+    </div>
+
+    <div class="container1">
+        <div class="heading">
+
+            <p>INFORMATIONS
+            <p>
+
+        </div>
+
+
+
+
+        <fieldset>
+            <legend>Contact Form</legend>
+            <form name="frmContact" method="post" action="contact.php">
+              <p>
+                <label for="txtName">Name</label>
+                <input type="text" name="txtName" id="txtName">
+              </p>
+              <p>
+                <label for="txtEmail">Email</label>
+                <input type="text" name="txtEmail" id="txtEmail">
+              </p>
+              <p>
+                <label for="txtPhone">Phone</label>
+                <input type="text" name="txtPhone" id="txtPhone">
+              </p>
+              <p>
+                <label for="txtMessage">Message</label>
+                <textarea name="txtMessage" id="txtMessage"></textarea>
+              </p>
+              <p>&nbsp;</p>
+              <p>
+                <input type="submit" name="Submit" id="Submit" value="Submit">
+              </p>
+            </form>
+
+    </div>
+
+
+    </div>
+
+</body>
+
+</html>

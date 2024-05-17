@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .Blog h1 {
+        margin-left: 120px;
+        color: rgb(5, 5, 5);
+        font-weight: bolder;
+        font-size:30px;
+    }
+    
+    .blog1 h2 {
+        margin-top: 100px;
+        margin-left: 100px;
+        color: black;
+    }
+    
+    .blog1 p {
+        margin-left: 100px;
+        margin-top: 5px;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    
+    .blog1 img {
+        margin-left: 100px;
+        width: 40%;
+        margin-top: 10px;
+    }
+    
+    .blog1 video {
+        margin-left: 120px;
+        width: 80%;
+        margin-top: 10px;
+    }
+    /* a.button
+{
+    margin:40px 0 0 500px;
+    color:black;
+    background-color:maroon;
+    border-color:maroon;
+    border-radius: 8px;
+    font-size: 18px;
+    width: 35%;
+    height: 12%;
+    padding: 10px;
+}*/
+    
+    .travel {
+        padding: 20px;
+        margin: 20px;
+        font-size: 24px;
+        display: flex;
+        box-sizing: border-box;
+        width: 80%;
+        height: 300px;
+    }
+    
+    .visit {
+        width: 100%;
+        text-align: center;
+        color: black;
+        /*padding: 5px;*/
+        font-size: 16px;
+    }
+    
+    .Blog {
+        margin-top: 120Px;
+    }
+    /* Keyframe animation */
+@keyframes exampleAnimation {
+  0% { opacity: 0; transform: scale(0.5); }
+  50% { opacity: 0.5; transform: scale(1.2); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+/* Apply the animation to an element */
+.element {
+  
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+ /* Keyframe animation */
+ @keyframes bannerAnimation {
+      0% { opacity: 0; transform: translateY(-100%); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Apply the animation to the banner */
+    .banner {
+      width: 40%;
+      height: 100px;
+      background-color: #f1f1f1;
+      animation-name: bannerAnimation;
+      animation-duration: 1s;
+      animation-delay: 1s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: both;
+    }
+   /* .object {
+  width: 40%;
+  height: 40%;
+  background-color: rgb(93, 87, 87);
+  position: relative;
+  animation-name: moveAnimation;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}*/
+
+@keyframes moveAnimation {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 200px;
+    top: 100px;
+  }
+  100% {
+    left: 0;
+  }
+}
+</style>
+
+<body>
+    <div class="topnav">
+        
+        <a href="home.html">Home</a>
+        <a href="myblog.html">Blog</a>
+        <a href="media.html">Media</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="information group.html">Information Group </a>
+    </div>
+    <section class="Blog" id="Blog">
+        <h1 class="element">Inspiring Stories of Resilience</h1>
+        <div class="blog1">
+            <h2 class="banner">Discover inspiring stories </h2>
+            <p> Individuals who have overcome adversity and transformed their lives. Through interviews, testimonials<p>
+            
+            <img src="image/2.jpg">
+        </div>
+        <div class="blog1">
+            <h2 class="object">strength of those who have emerged from the depths of poverty and created a brighter future for themselves and their families.</h2>
+            
+                <p> Get Involved  </p>
+            <img src="image/1.jpg"><br><br>
+        </div>
+        <div class="blog1">
+            <h2> Together, We Can Make a Differencen</Link></h2>
+            <p>Step into "The Tunnel" and be part of a movement that aims to uplift the impoverished and create a more equitable society.<p>
+            
+            <img src="image/3.jpg"><br><br>
+
+        </div>
+
+
+    </section>
+
+</body>
+
+</html>
